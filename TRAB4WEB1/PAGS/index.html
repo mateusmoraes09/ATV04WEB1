@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Life | Você sabe seu IMC?</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="./logo.png" rel="icon">
+</head>
+<body>
+    <a style="color: aqua;"></a>
+    <!--Menu da pagina--> 
+    <div class="Menu">
+        <nav>
+            <ul>
+                <li><a href="https://www.unimed.coop.br/viver-bem/alimentacao/dez-dicas-para-uma-alimentacao-saudavel">Alimentação Saudavel</a></li>
+                <li><a href="index.html">IMC de Idosos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Conteudo principal-->
+    <div class="Texto">
+        <div id="Paragrafo">
+            <br> </<br>
+            <p>O IMC (Índice de Massa Corporal) para idosos é uma medida semelhante ao IMC convencional, que é usado para avaliar se um idoso está dentro do peso considerado saudável. No entanto, existem algumas diferenças importantes a serem consideradas.</p>
+            <br>
+            <p>O IMC é calculado pela divisão do peso corporal em quilogramas pela altura ao quadrado em metros. A fórmula matemática para calcular o IMC é: IMC = peso (kg) / altura² (m²).</p>
+            <br>
+            <p>Após o calculado, o resultado é interpretado de acordo com a tabela de classificação que se baseia nos limites estabelecidos pela Organização Mundial da Saúde (OMS).</p>
+            <br>
+            <hr>
+            <img src="./tabela-IMC-acima-60.png" alt="" class="Midias">
+            <br>
+            <hr>
+            <br> </br>
+            <p>Para os idosos, o IMC deve ser interpretado com mais cuidado, pois a composição corporal e a distribuição de gordura mudam à medida que envelhecem. À medida que as pessoas envelhecem, a massa muscular tende a diminuir e a gordura corporal tende a aumentar, especialmente na região abdominal. Isso significa que uma pessoa idosa pode ter um IMC normal, mas ainda assim ter uma quantidade excessiva de gordura corporal.</p>
+            <br>
+            <p>Além disso, o IMC para idosos pode ser interpretado de forma diferente em comparação com adultos mais jovens. Para os idosos, a faixa de IMC considerada saudável pode ser um pouco mais elevada do que para adultos mais jovens. Isso ocorre porque, em idades mais avançadas, um pouco de excesso de peso pode ser benéfico, pois pode ajudar a manter a massa muscular e os ossos saudáveis.</p>
+            <br>
+            <p>Por fim, o IMC para idosos deve ser interpretado juntamente com outras medidas, como ingestão de alimentos, análise da composição corporal, avaliação da força muscular e capacidade funcional, para obter uma avaliação mais precisa do estado nutricional e de saúde do idoso. Por isso, é importante que os idosos consultem um profissional de saúde qualificado para obter uma avaliação mais completa e individualizada.</p>
+            <br>
+            <h2>Como melhorar o IMC?</h2>
+            <br>
+            <p>Para melhorar seu IMC (Índice de Massa Corporal), você precisa focar em dois principais aspectos: alimentação saudável e exercícios físicos regulares. Aqui estão algumas dicas específicas que podem ajudar:</p>
+            <br>
+            <p>1°: Alimentação saudável: Comece a escolher alimentos mais saudáveis e reduza a quantidade de calorias que consome. Dê preferência a alimentos naturais, como frutas, legumes, grãos integrais, proteínas magras e gorduras saudáveis. Evite alimentos processados e com alto teor de açúcar e gordura.</p>
+            <br>
+            <p>2°: Exercício físico: A atividade física é fundamental para queimar calorias e melhorar a composição corporal. O recomendado é fazer pelo menos 150 minutos de atividade física moderada ou 75 minutos de atividade física intensa por semana.</p>
+            <br>
+            <p>
+                <h4 style="text-align: justify;">1-O que fazer para baixar o IMC?</h4>
+                <br>
+                O índice de massa corporal (IMC) é uma medida que avalia o peso em relação à altura de uma pessoa. Se o seu IMC estiver acima do ideal, é importante tomar medidas para baixá-lo e manter um peso saudável. Aqui estão algumas dicas para ajudá-lo a baixar o seu IMC:</p>
+                <br>
+                <p>Controle a alimentação: Ajuste a sua alimentação e faça escolhas saudáveis, reduzindo o consumo de alimentos processados, açúcares e gorduras saturadas. É importante ter uma dieta equilibrada, incluindo frutas, verduras, grãos integrais e proteínas magras.</p>
+            <br>
+            <p>
+                <h4 style="text-align: justify;">2-O que fazer para aumentar o IMC?</h4>
+            <br>
+            Se você está abaixo do peso ou tem um IMC abaixo de 22, existem algumas coisas que você pode fazer para aumentá-lo de forma saudável:
+            </p>
+            <p>Consumir mais calorias: Aumente sua ingestão calórica diária. Tente adicionar alimentos nutritivos e densos em calorias em suas refeições, como nozes, sementes, abacate, frutas secas, grãos integrais, carnes magras, ovos, laticínios integrais e óleos saudáveis.</p>
+            <br>
+            <h2>Calcule aqui seu IMC:</h2>
+        </div>
+    </div>
+    <!--Calculadora-->
+    <div id="Calculadora">
+        <div id="div-altura">
+            <label for="altura">Altura(M)</label>
+            <input type="number" id="altura">
+        </div>
+        <div id="div-peso">
+            <label for="peso" style="padding-top: 10px;">Massa(Kg)</label>
+            <input type="number" id="peso">
+        </div>
+        <div id="div-calcular">
+            <button onclick="calcImc()">Calcular</button>
+        </div >
+        <br>
+        <div id="div-resultado">
+            <span id="resultado"></span>
+        </div>
+    <script src="script.js"></script>
+</div>
+</div>
+</div>
+</body>
+</html>
